@@ -1768,6 +1768,20 @@ section {
   .btn-viewmore{
     padding-bottom: 10px;
   }
+  #btn_pos{
+    padding-top: 100px;
+
+  }
+  #btn_auto{
+    padding-top: 40px;
+
+  }
+  #btn_petro{
+    padding-top: 30px;
+  }
+  #btn_medi{
+    padding-top: 50px;
+  }
 }
 @media(min-width:540px) and (max-width:720px){
   
@@ -1803,6 +1817,64 @@ section {
     padding-top: 40px;
   }
 }
+
+@media(min-width:820px) and (max-width:1180px){
+  
+  .flip-box-back{
+    height: 400px;
+    font-size: 16px;
+  }
+  .btn-viewmore{
+    padding-bottom: 10px;
+  }
+  #btn_pos{
+    padding-top: 30px;
+
+  }
+  #btn_auto{
+    padding-top: 1px;
+
+  }
+  #btn_petro{
+    padding-top: 1px;
+  }
+  #btn_medi{
+    padding-top: 1px;
+  }
+  #btn_erp{
+    padding-top: 35px;
+  }
+}
+
+@media(min-width:375px) and (max-width:667px){
+  
+  .flip-box-back{
+    height: 400px;
+    font-size: 16px;
+  }
+
+  #btn_pos{
+    padding-top: 90px;
+
+  }
+  #btn_campus{
+    padding-top: -5px;
+
+  }
+  #btn_auto{
+    padding-top: -5px;
+
+  }
+  #btn_petro{
+    padding-top: 15px;
+  }
+  #btn_medi{
+    padding-top: 40px;
+  }
+  #btn_erp{
+    padding-top: 0px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .flip-box-back p{
     height: 270px;
@@ -1811,6 +1883,28 @@ section {
   }
   .btn-viewmore {
     padding-bottom: 20px;
+  }
+  
+  #btn_pos{
+    padding-top: 20px;
+
+  }
+  #btn_campus{
+    padding-top: -5px;
+
+  }
+  #btn_auto{
+    padding-top: 0px;
+
+  }
+  #btn_petro{
+    padding-top: 1px;
+  }
+  #btn_medi{
+    padding-top: 1px;
+  }
+  #btn_erp{
+    padding-top: 30px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
