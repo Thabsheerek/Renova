@@ -209,8 +209,8 @@ body {
     height: 12vh;
     width: 100%;
     padding: 0 8%;
-    background-color: #f5f1f1;
-    color: #f5f1f1;
+    background-color: rgb(255, 241, 241);
+    color: rgb(196, 191, 191);
     position: relative;
   }
   

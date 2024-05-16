@@ -66,7 +66,44 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
+
+
+
+
+.wtp {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 60px;
+  z-index: 996;
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.wtp i {
+  font-size: 28px;
+  color: #25D366;
+  line-height: 0;
+}
+
+.wtp:hover {
+  background: #ffffff;
+  color: #180a0a;
+}
+
+.wtp.active {
+  visibility: visible;
+  opacity: 1;
+}
+/*--------
+
+
+
+------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
 #preloader {
@@ -508,7 +545,7 @@ nav{
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #ffffff;
 }
 
 #hero .animated {
@@ -1921,6 +1958,29 @@ section {
 .button-63 {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.button-62 {
+  align-items: center;
+  background-color: #0b2c87;
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;

@@ -111,7 +111,18 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
-
+  let wtp = select('.wtp')
+  if (wtp) {
+    const togglewtp = () => {
+      if (window.scrollY > 100) {
+        wtp.classList.add('active')
+      } else {
+        backtotop.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', togglewtp)
+    onscroll(document, togglewtp)
+  }
   /**
    * Mobile nav toggle
    */
